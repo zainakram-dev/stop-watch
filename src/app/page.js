@@ -19,6 +19,7 @@ const resetTimer=()=>{
   setTime(0)
 }
 
+
 const formatTime=(time)=>{ 
 const minutes=Math.floor(time / 60000);
 const seconds=Math.floor((time % 60000)/1000);
